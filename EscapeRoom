@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Escape Room</h1>
+        <div class="room">
+            <img src="room.jpg" alt="Room" id="room-image">
+            <button id="door" class="clickable" title="Door">🚪</button>
+            <button id="key" class="clickable" title="Key">🔑</button>
+            <button id="painting" class="clickable" title="Painting">🖼️</button>
+        </div>
+        <div id="inventory">
+            <h2>Inventory</h2>
+            <ul id="inventory-list"></ul>
+        </div>
+        <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
